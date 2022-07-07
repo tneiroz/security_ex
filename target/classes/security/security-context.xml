@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:sec="http://www.springframework.org/schema/security"
+	xsi:schemaLocation="http://www.springframework.org/schema/security 
+						http://www.springframework.org/schema/security/spring-security.xsd
+						http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="demo1" class="me.eun.model.Demo">
+		<constructor-arg name="name" value="생성자이용"/>
+	</bean>
+	
+	<bean id="demo2" class="me.eun.model.Demo">
+		<property name="name" value="세터 이용"/>
+	</bean>
+	
+	
+	
+	
+</beans>
